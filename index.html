@@ -3,46 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amicão</title>
+    <meta name="description" content="Amicão - ONG de proteção e adoção de animais. Conheça nossos abrigos, adote um parceiro e contribua com doações.">
+    <title>Amicão - Adoção e Proteção de Animais</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Cadeçalho da página/Topo da página-->
-    <link rel="stylesheet" href="style.css">
-    <h1>Amicão</h1>
-    <ul>
-        <li>Home</li>
-        <li>Doação</li>
-        <li>Adoção</li>
-        <li>Contato</li>
-    </ul>
-    <!--Fim do cabeçalho-->
-    <!--Conteúdo Principal da página-->
-    <h1>Adote um Parceiro</h1>
-    <h2>Destaques</h2>
-    <ul>
-        <img src="D:/projetoOng/img/Carol.jpg" alt="Carol">
-        <li>Carol</li>
-        <img src="D:/projetoOng/img/Mordida.jpg" alt="Mordida">
-        <li>Mordida</li>
-        <img src="D:/projetoOng/img/Brigadeiro.jpg" alt="Brigadeiro">
-        <li>Brigadeiro</li>
-    </ul>
-    <h2>Quem somos?</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos dicta laudantium, vel dolores similique recusandae eos sint sunt? Praesentium perferendis, ipsum accusamus nisi magnam assumenda porro earum totam maxime sint?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam perferendis, molestias natus cumque quasi praesentium aperiam dolorum unde dicta debitis, totam fugiat inventore error consequuntur? A maiores dolorum eligendi omnis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie tellus odio, ac scelerisque massa eleifend molestie. Phasellus at nisi nec eros aliquet cursus. Quisque sollicitudin nulla at odio sodales, rutrum malesuada est euismod. Vivamus fringilla, eros in tristique pharetra, tortor erat interdum velit, eu eleifend leo elit nec tellus. Duis at odio ullamcorper, interdum nulla tincidunt, euismod diam. Aliquam pretium suscipit justo nec ultrices. Duis consectetur neque nec mauris convallis, non condimentum nisl vulputate. Nullam dignissim felis sed pretium ornare.</p>
-        <h2>Como contribuir?</h2>
-        <ol>
-            <li>Pix</li>
-            <li>Dinheiro</li>
-            <li>Rações</li>
-            <li>Cartão</li>
-        </ol>
-        <!--Fim do conteúdo da página-->
-        <!--Rodapé da página-->
-        <p><strong>Telefone de Contato</strong> (18)9876-543</p>
-        <p>Redes Socias:</p>
-        <img src="D:/projetoOng/img/Instagram.jpg" alt="Instagram">
-        <!--Fim do rodapé da página-->
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Amicão</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#doacao">Doação</a></li>
+                <li><a href="#adocao">Adoção</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal da página -->
+    <main>
+        <section id="adocao">
+            <h2>Adote um Parceiro</h2>
+            
+            <section id="destaques">
+                <h3>Destaques</h3>
+                <ul>
+                    <li>
+                        <img src="./img/Carol.jpg" alt="Carol - disponível para adoção">
+                        <span>Carol</span>
+                    </li>
+                    <li>
+                        <img src="./img/Mordida.jpg" alt="Mordida - disponível para adoção">
+                        <span>Mordida</span>
+                    </li>
+                    <li>
+                        <img src="./img/Brigadeiro.jpg" alt="Brigadeiro - disponível para adoção">
+                        <span>Brigadeiro</span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="sobre">
+            <h2>Quem somos?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos dicta laudantium, vel dolores similique recusandae eos sint sunt? Praesentium perferendis, ipsum accusamus nisi magnam assumenda porro earum totam maxime sint?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam perferendis, molestias natus cumque quasi praesentium aperiam dolorum unde dicta debitis, totam fugiat inventore error consequuntur? A maiores dolorum eligendi omnis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie tellus odio, ac scelerisque massa eleifend molestie. Phasellus at nisi nec eros aliquet cursus. Quisque sollicitudin nulla at odio sodales, rutrum malesuada est euismod. Vivamus fringilla, eros in tristique pharetra, tortor erat interdum velit, eu eleifend leo elit nec tellus. Duis at odio ullamcorper, interdum nulla tincidunt, euismod diam. Aliquam pretium suscipit justo nec ultrices. Duis consectetur neque nec mauris convallis, non condimentum nisl vulputate. Nullam dignissim felis sed pretium ornare.</p>
+        </section>
+
+        <section id="doacao">
+            <h2>Como contribuir?</h2>
+            <ol>
+                <li>Pix</li>
+                <li>Dinheiro</li>
+                <li>Rações</li>
+                <li>Cartão</li>
+            </ol>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer id="contato">
+        <p><strong>Telefone de Contato:</strong> <a href="tel:+5518987654321">(18) 9876-5432</a></p>
+        <p>Redes Sociais:</p>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="./img/Instagram.jpg" alt="Instagram - Siga-nos">
+        </a>
+    </footer>
 </body>
 </html>
