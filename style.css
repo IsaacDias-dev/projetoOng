@@ -8,3 +8,17 @@ img {
   .cor_fonte{
     color: #F2EDDF;
   }
+a:link {
+  color: #F2EDDF;
+  text-decoration: none;
+}
+a:visited {
+  color: #2D5B40;
+}
+a:hover {
+  color: #1CB059;
+  text-decoration: underline;
+}
+a:active {
+  color: #1CB027;
+}
